@@ -1,0 +1,28 @@
+Java Class Creator Outline:
+BOF
+Project Name
+{ClassName
+	{Fields
+		<access> <static> <type> <name>
+			access default - private. non-static unless specified.
+		...
+		...
+	}
+	{Methods
+		Default getter/setters for every variable name
+		<access> <static> <return> <signature>
+			access default - public. non-static unless specified.
+		...
+		...
+	}
+}
+{Class2Name
+	{Fields
+		...
+	}
+	{Methods
+		...
+	}
+}
+EOF
+

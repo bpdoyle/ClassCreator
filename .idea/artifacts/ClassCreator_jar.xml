@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ClassCreator:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ClassCreator_jar</output-path>
+    <root id="archive" name="ClassCreator.jar">
+      <element id="module-output" name="ClassCreator" />
+    </root>
+  </artifact>
+</component>
