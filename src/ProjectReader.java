@@ -3,14 +3,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ProjectReader {
-    private String fileName;
+    private File file;
     private String projectName;
     private List<Class> classes;
     private int currentClass;
     private int numBraces;
 
-    public ProjectReader(String fileName) {
-        this.fileName = fileName;
+    public ProjectReader(File file) {
+        this.file = file;
         this.classes = new ArrayList<>();
         this.currentClass = -1;
         this.numBraces = 0;
@@ -24,7 +24,7 @@ public class ProjectReader {
 
     public void readProject() {
         String line = "";
-        try (BufferedReader bfr = new BufferedReader(new FileReader(fileName))) {
+        try (BufferedReader bfr = new BufferedReader(new FileReader(file))) {
             while ((line = bfr.readLine()) != null) {
                 line = line.trim();
                 if (numBraces == 0) { // Class Level

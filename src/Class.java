@@ -1,10 +1,11 @@
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Class {
+public class Class implements Serializable {
     String name;
-    private List<Field> fields;
-    private List<Method> methods;
+    private final List<Field> fields;
+    private final List<Method> methods;
 
     public Class(String name) {
         this.name = name;

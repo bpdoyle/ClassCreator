@@ -1,5 +1,9 @@
 Java Class Creator Outline:
-BOF
+**********
+This is a description for how to structure your outline.
+This is NOT to be used to test your program. When testing use ExampleOutline.txt
+**********
+
 Project Name
 {ClassName
 	{Fields
@@ -9,7 +13,7 @@ Project Name
 		...
 	}
 	{Methods
-		Default getter/setters for every variable name
+		Default getter/setters for every variable name. Don't need to include them in the text file.
 		<access> <static> <return> <signature>
 			access default - public. non-static unless specified.
 		...
@@ -24,5 +28,5 @@ Project Name
 		...
 	}
 }
-EOF
+
 

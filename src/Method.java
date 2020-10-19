@@ -1,4 +1,6 @@
-public class Method {
+import java.io.Serializable;
+
+public class Method implements Serializable {
     private String access;
     private String nonStatic;
     private String returnType;

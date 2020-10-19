@@ -1,0 +1,25 @@
+TestProject
+{ClassOne
+	{
+		private int integer
+		private String string
+		private static boolean bool
+	}
+	{
+		public int returner()
+		public void methodTwo(int param1, String param2)
+		public static String broken(boolean trueFalse)
+	}
+}
+{ClassTwo
+	{
+		private int integer2
+		private String string2
+		private static boolean bool2
+	}
+	{
+		public int returner2()
+		public void methodTwo2(int param12, String param22)
+		public static String broken2(boolean trueFalse2)
+	}
+}

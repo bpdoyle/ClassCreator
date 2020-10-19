@@ -15,7 +15,7 @@ public class Driver {
         File file = new File(fileName);
         String projectDir = file.getAbsoluteFile().getParent() + "/";
 
-        ProjectReader reader = new ProjectReader(fileName);
+        ProjectReader reader = new ProjectReader(file);
 
         reader.readProject();
 

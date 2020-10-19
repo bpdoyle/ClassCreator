@@ -1,4 +1,6 @@
-public class Field {
+import java.io.Serializable;
+
+public class Field implements Serializable {
     private String access;
     private String nonStatic;
     private String type;
