@@ -1,0 +1,7 @@
+Instead of class, want fileNames.
+Will need to create method stubs at the top of the file
+Structs?
+Getters, Setters, toString won't be a thing
+Should a header file be created automatically? I'd say yes
+#define, #include, typedef, struct, method stubs all go in header files (with an ifdef, define)
+The methods with empty bodies and a #include cfile.h will be the only things that go in the .c file
